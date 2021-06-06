@@ -9,7 +9,7 @@
 def select_winner(passengers)
   passengers.each do |key, value|
     if passengers[key][value][0] == "A"
-      puts passengers[key]
+      puts value
     end
   end
   # add the code snippet here!
